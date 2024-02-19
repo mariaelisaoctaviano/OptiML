@@ -11,4 +11,5 @@ Neste repositório, há três pastas principais:
 
 # Capturas de Tela
 ![Figure](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Figuras/Ant.png).
+![Figure](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Figuras/AG.png).
   
