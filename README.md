@@ -10,5 +10,5 @@ Neste repositório, há três pastas principais:
 - Redes neurais artificiais: Implementação básica de redes neurais artificiais e 1 artigo publicado por mim na área.
 
 # Capturas de Tela
-![Figure](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Figuras/ant.png).
+![Figure](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Figuras/Ant.png).
   
