@@ -90,4 +90,9 @@ for super_ in range(1, 11):
 mean_error = sum(errors) / len(errors)
 print('Erro médio do algoritmo genético ao longo de 10 execuções: {:.5f} %'.format(mean_error))
 
-a = 1
+# Plotando os erros
+plt.bar(range(1, 11), errors)
+plt.xlabel('Execução')
+plt.ylabel('Erro')
+plt.title('Erro por Execução - Algoritmo Genético')
+plt.show()
