@@ -2,6 +2,8 @@
 
 Esta pasta contém uma implementação básica em Python de Algoritmo Genético (AG.py) e os seguintes artigos, publicados por mim nesta área:
 
+Nota: Os artigos publicados em revistas e anais de eventos estão com os links originais das publicações.
+
 - Battery Allocation and SOC in Distribution Systems Considering Temperature Constraints
 - Método para dimensionamento e gerenciamento da operação de baterias em sistemas industriais para minimização de custos de energia
 - Battery Management And Allocation Analysis Considering Cost And Depth Of Discharge
