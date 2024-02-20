@@ -1,16 +1,21 @@
 # OptiML
 
-Bem vindo ao repositótio OptiML! Aqui você vai encontrar códigos de machine learning e técnicas de otimização.
+Esta pasta contém uma implementação básica em Python de Redes Neurais Artificiais (NN.py) e o seguinte artigo, publicado por mim nesta área.
 
-# Estrutura
+- [Avaliação da Estrutura de Saída de Redes Neurais Artificiais Utilizadas na Detecção de Faltas de Alta Impedância em Sistemas de Distribuição](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Redes%20Neurais%20Artificiais/Avalia%C3%A7%C3%A3o%20da%20Estrutura%20de%20Sa%C3%ADda%20de%20Redes%20Neurais%20Artificiais%20Utilizadas%20na%20Detec%C3%A7%C3%A3o%20de%20Faltas%20de%20Alta%20Imped%C3%A2ncia%20em%20Sistemas%20de%20Distribui%C3%A7%C3%A3o.pdf)
 
-Neste repositório, há três pastas principais:
-- [Otimização por Colônia de Formigas](https://github.com/mariaelisaoctaviano/OptiML/tree/main/Otimiza%C3%A7%C3%A3o%20por%20Col%C3%B4nia%20de%20Formigas): Implementação da técnica para solucionar um problema discutido.
-- [Algoritmos Genéticos](https://github.com/mariaelisaoctaviano/OptiML/tree/main/Algoritmos%20Gen%C3%A9ticos): Implementação básica de algoritmos genéticos e 7 artigos publicados por mim na área.
-- [Redes neurais artificiais](https://github.com/mariaelisaoctaviano/OptiML/tree/main/Redes%20Neurais%20Artificiais): Implementação básica de redes neurais artificiais e 1 artigo publicado por mim na área.
+# Passos para Execução - NN.py
+- Instalação do Python Pandas e Torch
+- Durante a Execução, o script imprime as perdas da rede neural e salva o modelo obtido, no arquivo 'modelo_resultante.pt'
+- Nota: o script deve ser executado na mesma pasta da base de dados data.csv
 
-# Capturas de Tela
-![Figure](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Figuras/Ant.png).
-![Figure](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Figuras/AG.png).
+# Visualização do Modelo - NN_Viewer.py
+- Para melhor visualização dos resultados da rede, o script NN_Viewer.py plota o modelo resultante
+- Caso o usuário queira executar somente este script basta que na pasta haja o arquivo 'modelo_resultante.pt' e o arquivo  NN_Viewer.py
+- Além disso, deve-se instalar a biblioteca Matplotlib
+
+# Resultados
+- A execução dos scripts nesta pasta deve fornecer dados coerentes com os descritos abaixo.
+
 ![Figure](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Figuras/RNA.png)
   
