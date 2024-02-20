@@ -93,5 +93,3 @@ plt.title('Resultados da Previsão de Temperaturas')
 plt.legend()
 plt.savefig('Resultados da Previsão de Temperaturas')
 plt.show()
-
-a = 1
