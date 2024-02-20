@@ -6,7 +6,7 @@ Nota: Os artigos publicados em revistas e anais de eventos estão com os links o
 
 - [Battery Allocation and SOC in Distribution Systems Considering Temperature Constraints](https://latamt.ieeer9.org/index.php/transactions/article/view/8193)
 - Método para dimensionamento e gerenciamento da operação de baterias em sistemas industriais para minimização de custos de energia
-- Battery Management And Allocation Analysis Considering Cost And Depth Of Discharge
+- [Battery Management And Allocation Analysis Considering Cost And Depth Of Discharge](https://github.com/mariaelisaoctaviano/OptiML/blob/main/Algoritmos%20Gen%C3%A9ticos/Battery%20Management%20And%20Allocation%20Analysis%20Considering%20Cost%20And%20Depth%20Of%20Discharge.pdf)
 - [Método para alocação e gerenciamento de baterias em sistemas de distribuição com minimização de perdas considerando vida útil e restrições de temperatura](https://www.sba.org.br/open_journal_systems/index.php/cba/article/view/3379)
 - [Alocação de Baterias em Sistemas de Distribuição com Minimização de Perdas Considerando Custos e Vida Útil](https://www.sba.org.br/open_journal_systems/index.php/cba/article/view/1296)
 - [Método para alocação, dimensionamento e gerenciamento da operação de BESS visando redução de perdas elétricas em sistemas de distribuição](https://www.sba.org.br/open_journal_systems/index.php/cba/article/view/1677)
