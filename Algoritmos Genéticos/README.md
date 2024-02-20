@@ -4,7 +4,7 @@ Esta pasta contém uma implementação básica em Python de Algoritmo Genético 
 
 Nota: Os artigos publicados em revistas e anais de eventos estão com os links originais das publicações.
 
-- Battery Allocation and SOC in Distribution Systems Considering Temperature Constraints
+- [Battery Allocation and SOC in Distribution Systems Considering Temperature Constraints](https://latamt.ieeer9.org/index.php/transactions/article/view/8193)
 - Método para dimensionamento e gerenciamento da operação de baterias em sistemas industriais para minimização de custos de energia
 - Battery Management And Allocation Analysis Considering Cost And Depth Of Discharge
 - [Método para alocação e gerenciamento de baterias em sistemas de distribuição com minimização de perdas considerando vida útil e restrições de temperatura](https://www.sba.org.br/open_journal_systems/index.php/cba/article/view/3379)
