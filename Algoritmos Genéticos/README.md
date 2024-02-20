@@ -9,7 +9,7 @@ Nota: Os artigos publicados em revistas e anais de eventos estão com os links o
 - Battery Management And Allocation Analysis Considering Cost And Depth Of Discharge
 - Método para alocação e gerenciamento de baterias em sistemas de distribuição com minimização de perdas considerando vida útil e restrições de temperatura
 - [Alocação de Baterias em Sistemas de Distribuição com Minimização de Perdas Considerando Custos e Vida Útil](https://www.sba.org.br/open_journal_systems/index.php/cba/article/view/1296)
-- Método para alocação, dimensionamento e gerenciamento da operação de BESS visando redução de perdas elétricas em sistemas de distribuição
+- [Método para alocação, dimensionamento e gerenciamento da operação de BESS visando redução de perdas elétricas em sistemas de distribuição](https://www.sba.org.br/open_journal_systems/index.php/cba/article/view/1677)
 - Redução de Perdas em Sistemas de Distribuição Empregando Baterias
 
   
