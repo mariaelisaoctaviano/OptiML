@@ -1,6 +1,6 @@
 # Otimização por Colônia de Formigas
 
-Script referente a solução via colônia de formigas do problema de otimização mostrado na figura.
+Script referente ao método de otimização colônia de formigas.
 
 # Referências
 
