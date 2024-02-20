@@ -1,6 +1,6 @@
 # Algoritmos Genéticos
 
-Esta pasta contém uma implementação básica em Python de Algoritmo Genético e os seguintes artigos, publicados por mim nesta área:
+Esta pasta contém uma implementação básica em Python de Algoritmo Genético (AG.py) e os seguintes artigos, publicados por mim nesta área:
 
 - Battery Allocation and SOC in Distribution Systems Considering Temperature Constraints
 - Método para dimensionamento e gerenciamento da operação de baterias em sistemas industriais para minimização de custos de energia
