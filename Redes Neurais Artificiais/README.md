@@ -1,4 +1,4 @@
-# OptiML
+# Redes Neurais Artificiais
 
 Esta pasta contém uma implementação básica em Python de Redes Neurais Artificiais (NN.py) e o seguinte artigo, publicado por mim nesta área.
 
