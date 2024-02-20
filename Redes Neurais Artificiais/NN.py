@@ -101,5 +101,3 @@ torch.save(modelo.state_dict(), 'modelo_resultante.pt')
 fim = time.time()
 tempo_tot = (fim - inicio)/3600 # em Horas
 print('Tempo de Execução (Horas): {:.2f}'.format(tempo_tot))
-
-a = 1
