@@ -3,48 +3,48 @@ import matplotlib.pyplot as plt
 
 errors = []
 
+# Definindo a função de aptidão (fitness)
+def fitness_function(x):
+    return -(x ** 2)  # Queremos maximizar, então usamos o negativo do quadrado
+
+# Função para inicializar a população
+def initialize_population(population_size, min_value, max_value):
+    return [random.uniform(min_value, max_value) for _ in range(population_size)]
+
+# Função para avaliar a aptidão de cada indivíduo na população
+def evaluate_population(population):
+    return [fitness_function(individual) for individual in population]
+
+# Função para selecionar indivíduos para reprodução (roleta)
+def selection(population, fitness_scores):
+    # Adicionando um deslocamento positivo aos valores de aptidão
+    shifted_fitness_scores = [score - min(fitness_scores) + 1 for score in fitness_scores]
+    return random.choices(population, weights=shifted_fitness_scores, k=len(population))
+
+# Função para realizar cruzamento (recombinação)
+def crossover(parent1, parent2):
+    # Verificar se os pais são listas
+    if not isinstance(parent1, list) or not isinstance(parent2, list):
+        return parent1, parent2
+    crossover_point = random.randint(1, len(parent1) - 1)
+    child1 = parent1[:crossover_point] + parent2[crossover_point:]
+    child2 = parent2[:crossover_point] + parent1[crossover_point:]
+    return child1, child2
+
+# Função para aplicar mutação
+def mutate(individual, mutation_rate, min_value, max_value):
+    # Verificar se o indivíduo é uma lista
+    if not isinstance(individual, list):
+        return individual
+    mutated_individual = []
+    for gene in individual:
+        if random.random() < mutation_rate:
+            mutated_individual.append(random.uniform(min_value, max_value))
+        else:
+            mutated_individual.append(gene)
+    return mutated_individual
+
 for super_ in range(1, 11):
-    # Definindo a função de aptidão (fitness)
-    def fitness_function(x):
-        return -(x ** 2)  # Queremos maximizar, então usamos o negativo do quadrado
-
-    # Função para inicializar a população
-    def initialize_population(population_size, min_value, max_value):
-        return [random.uniform(min_value, max_value) for _ in range(population_size)]
-
-    # Função para avaliar a aptidão de cada indivíduo na população
-    def evaluate_population(population):
-        return [fitness_function(individual) for individual in population]
-
-    # Função para selecionar indivíduos para reprodução (roleta)
-    def selection(population, fitness_scores):
-        # Adicionando um deslocamento positivo aos valores de aptidão
-        shifted_fitness_scores = [score - min(fitness_scores) + 1 for score in fitness_scores]
-        return random.choices(population, weights=shifted_fitness_scores, k=len(population))
-
-    # Função para realizar cruzamento (recombinação)
-    def crossover(parent1, parent2):
-        # Verificar se os pais são listas
-        if not isinstance(parent1, list) or not isinstance(parent2, list):
-            return parent1, parent2
-        crossover_point = random.randint(1, len(parent1) - 1)
-        child1 = parent1[:crossover_point] + parent2[crossover_point:]
-        child2 = parent2[:crossover_point] + parent1[crossover_point:]
-        return child1, child2
-
-    # Função para aplicar mutação
-    def mutate(individual, mutation_rate, min_value, max_value):
-        # Verificar se o indivíduo é uma lista
-        if not isinstance(individual, list):
-            return individual
-        mutated_individual = []
-        for gene in individual:
-            if random.random() < mutation_rate:
-                mutated_individual.append(random.uniform(min_value, max_value))
-            else:
-                mutated_individual.append(gene)
-        return mutated_individual
-
     # Parâmetros do algoritmo
     population_size = 1000
     min_value = -10
@@ -96,4 +96,5 @@ plt.bar(range(1, 11), errors)
 plt.xlabel('Execução')
 plt.ylabel('Erro')
 plt.title('Erro por Execução - Algoritmo Genético')
+plt.savefig('Erro por Execução - Algoritmo Genético')
 plt.show()
